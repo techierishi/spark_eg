@@ -1,7 +1,6 @@
-# spark_eg
+Spark examples
+==============
 
-compile using :
-mvn package
+Simple examples of using the [Apache Spark](http://spark.apache.org/).
 
-to push it to spark-submit:
-spark-submit --class org.apache.spark.examples.WordCount --master local[4] spark-examples-1.0.jar ../words.txt
+It's a fork of the [official examples](https://github.com/apache/spark/tree/master/examples/src/main/java/org/apache/spark/examples) rewritten for Java 8.
