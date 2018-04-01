@@ -3,4 +3,17 @@ Spark examples
 
 Simple examples of using the [Apache Spark](http://spark.apache.org/).
 
-It's a fork of the [official examples](https://github.com/apache/spark/tree/master/examples/src/main/java/org/apache/spark/examples) rewritten for Java 8.
+Spark submit options:
+
+https://spark.apache.org/docs/latest/submitting-applications.html
+
+To compile :
+mvn package
+
+To Run this project :
+Got to target folder ->
+spark-submit --class org.apache.spark.examples.WordCount --master local[4] spark-examples-1.0.jar ../words.txt
+
+
+
+
